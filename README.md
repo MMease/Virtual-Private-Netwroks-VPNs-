@@ -17,34 +17,62 @@ This tutorial outlines how to use and configure a VPN within Vitual Machines.<br
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Create Resoure Group and Virtual Machine
+- Get Personal PC's IP Address 
+- Open Virtual Machine and check IP
+- Download Proton VPN
+- Check new VPN from selected Countries 
 
-<h2>Installation Steps</h2>
+<h2>Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/g7IMro4.png" height="80%" width="80%" alt="Resoure Group"/>
+<img src="https://i.imgur.com/MTiP8Sz.png" height="80%" width="80%" alt="VM"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+First, I created a resource group named "VPN". Next, I created a virtual machine named "VM1".When configuring it, ensure you choose a different region than your current location.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/rTxxEWR.png" height="80%" width="80%" alt="Personal IP"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Check the current IP Address of your machine through "https://whatismyipaddress.com"
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ff2P7GU.png" height="20%" width="80%" alt="MRD"/>
+<img src="https://i.imgur.com/ZbXfjeB.jpg" height="60%" width="80%" alt="login"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Log in to the virtual machine using the login credentials created when configuring the VM.
 </p>
 <br />
+
+<p>
+<img src="https://i.imgur.com/UDzmRDm.png" height="80%" width="80%" alt="New_IP"/>
+</p>
+<p>
+After the VM has opened. Go to Microsoft edge and open up "https://whatismyipaddress.com" to retrieve the Ip address of the Virtual machine.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/g9GDACz.png" height="80%" width="80%" alt="Proton_Download"/>
+</p>
+<p>
+Download the proton VPN to the virtual machine. You will create a free account that will give you three regions for the VPN. You'll have the option of paying for the more advanced account to add more regions. However, for this project, we don't need it.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/yASyFag.png" height="80%" width="80%" alt="VPN IP"/>
+<img src="https://i.imgur.com/qjN3kSN.jpg" height="80%" width="80%" alt="JP-Netflix"/>
+</p>
+<p>
+Finally, I selected the Japan region for my new VPN. To confirm the switch, I checked the new IP address for the VM. After that, you can see that Netflix advertises the Japan region.
+</p>
+<br />
+
